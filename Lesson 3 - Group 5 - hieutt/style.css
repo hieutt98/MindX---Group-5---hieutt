@@ -1,0 +1,67 @@
+table{
+    background-color: #228B22;
+}
+
+#home{
+    padding:50px
+}
+#aboutme{
+    padding:50px;
+}
+
+hr{
+    padding:0px;
+    margin:0px;
+    border-width: 1px solid white;
+    color:white;
+
+}
+.second_hr {
+    width: 90px;
+    margin : auto;
+}
+.content{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.about{         
+    padding :50px;
+}
+.projects{         
+    padding :50px;
+}
+.achievements{         
+    padding :50px;
+}
+.proj{
+    display: inline-block;
+    margin-left : 400px;
+}
+.img{
+    position: relative;
+    top : 30px;
+}
+.thanhtuu{
+    margin-left: 100px;
+}
+.contact{
+    padding: 50px;
+}
+input{
+    margin-left: 10px;
+}
+textarea{
+    margin-left: 10px;
+}
+.linkedin{
+    margin-left: 50px;
+}
+
+.github{
+    margin-left: 50px;
+}
+button{
+    margin-left: 10px;
+}
