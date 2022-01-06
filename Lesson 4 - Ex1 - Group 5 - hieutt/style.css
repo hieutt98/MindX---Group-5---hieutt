@@ -1,0 +1,18 @@
+*{
+    border: solid 1px;
+}
+.title{
+    color: red;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+#article-title{
+    font-family: cursive;
+}
+a[href*="nationalgeographic"] {
+    color : green;
+}
+a:hover {
+    color: hotpink;
+}
