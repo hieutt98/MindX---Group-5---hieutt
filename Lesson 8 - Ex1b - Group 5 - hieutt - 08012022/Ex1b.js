@@ -20,4 +20,4 @@ switch (operator) {
         break;
 };
 document.getElementById("result-view").innerHTML = `Phép tính của bạn là: ${num1} ${operator} ${num2} = ${result}`;
-console.log(`${a} ${operator} ${b} = ${result}`);
+console.log(`${num1} ${operator} ${num2} = ${result}`);
