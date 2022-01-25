@@ -3,13 +3,15 @@ function init() {
     const button = document.getElementById('change-my-life');
     const paragraph = document.getElementById('status');
     const content = document.querySelector('.content');
-    const string1 = 'Tôi NGhèo';
+    // const string1 = 'Tôi Nghèo';
     const string2 = 'Tôi Giàu sau khi học lập trình tại mindX';
     let check = 1;
 
     // sau khi nhấp chuột vào change-my-life nội dụng tối nghèo sẽ chuyển thành tôi giàu và ngược lại
     button.onclick = () => {
-        content.innerHTML = check == 1 ? string1 : string2;
+        if(check==1){
+            content.innerHTML = string2;
+        }
         check = !check;
     };
 
